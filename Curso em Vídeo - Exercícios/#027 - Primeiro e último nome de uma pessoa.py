@@ -1,0 +1,6 @@
+nome_Completo = input('Qual é sue nome: ').strip()
+primeiro = nome_Completo.find(' ')
+ultimo = nome_Completo.rfind(' ')
+print('Prazer em te conhecer!!!')
+print(f'Primeiro nome: {nome_Completo[0:primeiro]}')
+print(f'Ultimo nome: {nome_Completo[ultimo:]}')
